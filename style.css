@@ -182,6 +182,17 @@ footer.site .wrap {
 footer.site a { color: var(--muted); text-decoration: none; }
 footer.site a:hover { color: var(--text); }
 footer.site nav a { margin-left: 16px; }
+footer.site .tm {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+footer.site .tm p {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
 
 @media (max-width: 480px) {
   .hero h1 { font-size: 2rem; }
